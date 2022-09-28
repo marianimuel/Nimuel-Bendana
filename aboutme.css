@@ -1,0 +1,91 @@
+body{
+    background-image: linear-gradient(#eba6ad,#baecfb);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: century gothic;
+    color: rgb(21, 16, 16);
+    }
+
+.profile{
+        position: static;
+         padding : 20px ;
+         text-align: center;
+         margin: auto;
+         margin-top: 5%;
+         color: black;
+         font-family: century Gothic, sans-serif;
+     }
+     
+.profile img {
+        width: 340px;
+        border-radius: 120%;
+        height: 20em;
+        object-fit: cover;
+     
+      }
+     
+
+    
+
+.container{
+width: 960px;
+min-height: 690px;
+background: #fff;
+margin: 70px auto 0;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.container .box{
+position: relative;
+width: 300px;
+height: 690px;
+background: #ff0;
+margin: 10px;
+box-sizing: border-box;
+display: inline-block;
+}
+
+
+.container .box .details{
+position: absolute;
+top: 10px;
+left: 10px;
+bottom: 10px;
+right: 10px;
+background: rgb(252, 215, 215);
+transform: scaleY(0);
+transition: transform .5s;
+}
+
+.container .box:hover .details{
+transform: scaleY(1);
+}
+.container .box .details .content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+}
+    
+.container .box .details .content h2{
+    margin: 0;
+    padding: 0;
+    font-size:20px;
+    color: rgb(196, 104, 203);
+ }
+
+ .container .box .details .content p{
+    margin: 10px 0 0;
+    padding: 0;
+  
+ }
+
+
+
+
+
+
